@@ -393,21 +393,22 @@ header nav ul li.btn a:hover , .email .block button:hover {
 .banner-about{
     width: 100%;
     background: #1C140F;
-    position: relative;
+    /* position: relative; */
     height: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    
 }
 
-.banner-about img {
+/* .banner-about img {
     padding: 110px 0;
     margin-left: 22%;
-}
+} */
 
 .banner-about .text{
-    position: absolute;
     width: 550px;
-    left: 1400px;
-    top: 0;
-    padding: 135px 0;
+    padding-top: 150px;
 }
 
 .banner-about .text .head{
